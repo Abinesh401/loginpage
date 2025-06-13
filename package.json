@@ -1,0 +1,24 @@
+{
+  "name": "auth-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "web": "cd client && npm i && npm run build && npm run dev",
+    "server": "cd server && npm i && npm start",
+    "dev": "npm run web & npm run server"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abinesh401/loginpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Abinesh401/loginpage/issues"
+  },
+  "homepage": "https://github.com/Abinesh401/loginpage#readme"
+}
